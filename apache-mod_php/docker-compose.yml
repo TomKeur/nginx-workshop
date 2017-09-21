@@ -1,0 +1,9 @@
+# Author: Tom Keur <mail@tomkeur.net>
+version: "3.3"
+services:
+  php_web:
+    image: php:7.1.9-apache
+    ports:
+      - 7080:80
+    volumes:
+      - ../www:/var/www/html
