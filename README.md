@@ -1,6 +1,6 @@
 # NGINX workshop
 
-Om gebruik te kunnen maken van deze mini workshop, dien je Docker geinstalleerd te hebben.
+Om gebruik te kunnen maken van deze mini workshop, dien je Docker geïnstalleerd te hebben.
 Daarnaast dienen de volgende poorten vrij te zijn:
 
 - 7080
@@ -8,6 +8,15 @@ Daarnaast dienen de volgende poorten vrij te zijn:
 - 80
 
 Na de workshop, komen deze poorten weer vrij :).
+
+De volgende images worden gebruikt (makkelijk om deze nu alvast te pullen):
+
+
+```
+docker pull php:7.1.9-apache
+docker pull nginx:alpine
+docker pull php:7.1.9-fpm-alpine
+```
 
 Veel informatie kun je vinden in de admin-guide van NGINX:
 
